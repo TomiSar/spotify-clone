@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ReactJs Reddit clone application
+* This app is Spotify clone application made with NextJS
 
-## Getting Started
+# Deployed application
+* Coming after implementation
 
-First, run the development server:
+## Create React project JavaScript
+* Create project: 
+* npx create-next-app spotifyclone2
+* Install Tailwind CSS: 
+* npm install -D tailwindcss postcss autoprefixer
+* npx tailwindcss init -p
+* Create project: npx create-next-app spotifyclone2
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Documentation
+* https://v2.tailwindcss.com/docs/guides/nextjs
+* https://nextjs.org/
+* https://nextjs.org/docs/api-reference/create-next-app
+* https://developer.spotify.com/dashboard/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project steps
+* Introduction
+* Build Showcase  
+* Hostinger Sponsorship
+* Build Explanation
+* Setting up Next.js, Tailwind CSS & Spotify
+* Initialising the build
+* Build Layout
+* Building the Sidebar Component (1/3)
+* Explaining NextAuth Authentication
+* Implementing NextAuth Authentication (1/2)
+* Implementing Spotify Web API
+* Implementing NextAuth Authentication (2/2)
+* Customising the Sign In Page
+* Building the Sidebar Component (2/3)
+* Explaining Middleware [Next.js 12.0]
+* Implementing Middleware [Next.js 12.0]
+* Building the Center Component (1/2)
+* Implementing the useSpotify Custom Hook
+* Building the Sidebar Component (3/3)
+* Implementing Recoil 
+* Implementing Recoil Atoms
+* Building the Center Component (2/2)
+* Building the Songs Component
+* Building the Song Component
+* Building the Player Component
+* Implementing the useSongInfo Custom Hook
+* Building the Left Side of the Player Component
+* Building the Center of the Player Component
+* Building the Right Side of the Player Component
+* Debouncing Explained
+* Implementing Volume Functionality using Debounce
+* Final Build Demo
+* Deploying to Vercel
+* Outro
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Start app
+* yarn run dev
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Stack and framework used
+* React
+* NextJs 12
+* Debounce
+* Tailwind
+* Spotify API
+* oauth JWT
+* access/refresh tokens
+* NextAuth
+* Recoil (state manager)
+* GraphQL
+* TypeScript
+* HTML
+* CSS
+* ES6
+* User authentication
+* HeroIcons (Icons)
+* Spotify login
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation of needed Packages for application uging npm or yarn
